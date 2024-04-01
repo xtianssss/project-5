@@ -1,0 +1,33 @@
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.display {
+    grid-column: span 4;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: right;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.operator,
+.equals,
+.clear,
+.backspace {
+    background-color: orange;
+    color: white;
+}
+
+.number {
+    background-color: #ddd;
+}
